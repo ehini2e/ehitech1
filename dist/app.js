@@ -1,5 +1,5 @@
 var images = [
-    src = 'images/{3D}1.jpg',
+    src = 'images/3D View 63.jpg',
     src = 'images/3D View 51.jpg',
     src = 'images1/IMG_20200518_133725.jpg',
     src = 'images/IMG_20190718_193520_283.jpg',
