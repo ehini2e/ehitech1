@@ -6,8 +6,7 @@ body {
 
 .main-header
 {
-    background-color: #c50b0b;
-    background-size: cover;
+    
     padding-bottom: 30px;
 }
 
@@ -37,14 +36,16 @@ body {
     background-color: rgb(164, 180, 180);
     margin: 1em;
 }
+
 .container{
-    max-width: 900px;
+    max-width: 65em;
     margin: 0 auto;
     padding: 0 1.5em;
 }
+
 .containeru{
     align-content: center;
-    margin-left: 10%;
+    margin-left: 18%;
 }
 
 .section-header {
@@ -82,6 +83,7 @@ body {
 }
 .shop-item {
     margin: 30px;
+  
 }
 
 .shop-items {
@@ -92,7 +94,19 @@ body {
 
 .shop-image {
     height: 150px;
+    
 }
+.shop-image1{
+    display: block;
+    position: relative;
+    transform: scale(.85);
+    transition: transform 250ms ease-in-out;
+}
+
+.shop-image1:hover,
+    :focus {
+        transform: scale(2);
+    }
 
 #slider {
     margin-top: 10px;
@@ -116,9 +130,30 @@ h1 {
    border: none;
    outline: none;
    color: blue;
+   text-decoration: none;
    border-radius: 20px; 
 }
 
 .hoverbtn{
     background-color: rgba(255, 255, 255, .3);
+}
+
+.spacing>*+* {
+    margin-top: var(--spacer, 2rem);
+}
+.featurea{
+    color: white;
+    align-content: center;
+    
+    background-image: 
+    url(images/FB_IMG_1560874397259.jpg),
+    radial-gradient(blue, #111 );
+    background-blend-mode: multiply;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.featureb{
+    background: #eee;
 }
